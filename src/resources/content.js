@@ -1,20 +1,20 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Daniel",
+  lastName: "Lidman",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Video Editor and Animator",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "daniel@daniel-lidman.com",
+  location: "America/Chicago", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: [], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
@@ -27,21 +27,21 @@ const newsletter = {
 const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
-  {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    {
+    name: "Vimeo",
+    icon: "vimeo",
+    link: "https://vimeo.com/daniellidman/",
   },
-  {
+   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/daniellidman/",
   },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
-  },
+  // {
+  //   name: "GitHub",
+  //   icon: "github",
+  //   link: "https://github.com/daniellidman",
+  // },
   {
     name: "Email",
     icon: "email",
@@ -55,7 +55,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Unleash your story in post production</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
@@ -63,8 +63,8 @@ const home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Daniel, a video editor and animator
+      fusing creativity and emerging technology to craft unforgettable visual experiences.
     </>
   ),
 };
@@ -82,7 +82,7 @@ const about = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -90,9 +90,12 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+      I’m a video editor and animator based in Nashville, TN.
+
+      I have spent the last 7 years working with large scale non-profits and humanitarian campaigns to tell the stories of lives changed and social good in the world. Whether I'm crafting a documentary, multicam cutting a concert, or animating responsive graphics for a promo, I love creatively bringing people's stories and visions to life.
+      <br></br>
+      <br></br>
+      Thanks for visiting my site. Looking forward to hearing from you!
       </>
     ),
   },
@@ -101,9 +104,9 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Ramsey Solutions",
+        timeframe: "2023 - Present",
+        role: "Senior Video Editor",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
@@ -125,9 +128,25 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Love Has No Limits",
+        timeframe: "2016 - 2023",
+        role: "Video Editor",
+        achievements: [
+          <>
+            Developed a design system that unified the brand across multiple platforms, improving
+            design consistency by 40%.
+          </>,
+          <>
+            Led a cross-functional team to launch a new product line, contributing to a 15% increase
+            in overall company revenue.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Freelance",
+        timeframe: "2018 - Present",
+        role: "Video Editor & Animator",
         achievements: [
           <>
             Developed a design system that unified the brand across multiple platforms, improving
@@ -147,12 +166,8 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Ferris State University",
+        description: <>Bachelor of Science in Television & Digital Media Production</>,
       },
     ],
   },
