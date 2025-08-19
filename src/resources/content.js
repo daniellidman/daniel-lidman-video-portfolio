@@ -18,8 +18,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the
-      intersection of creativity and engineering.
+      I occasionally write about video editing, motion design, technology, and
+      share thoughts on the intersection of video creation and web development.
     </>
   ),
 };
@@ -95,7 +95,7 @@ const about = {
     description: (
       <>
         I’m a video editor and animator based in Nashville, TN. I have spent the
-        last 7 years working with large scale non-profits and humanitarian
+        last 9 years working with large scale non-profits, humanitarian
         campaigns to tell the stories of lives changed and social good in the
         world. Whether I'm crafting a documentary, multicam cutting a concert,
         or animating responsive graphics for a promo, I love creatively bringing
@@ -134,12 +134,12 @@ const about = {
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: '/images/projects/project-01/cover-01.jpg',
-            alt: 'Once UI Project',
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: '/images/projects/project-01/cover-01.jpg',
+          //   alt: 'Once UI Project',
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
       {
