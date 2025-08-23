@@ -57,13 +57,13 @@ const home = {
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Unleash your story in post production</>,
   featured: {
-    display: true,
+    display: false,
     title: (
       <>
-        Recent project: <strong className="ml-4">Once UI</strong>
+        Recent project: <strong className="ml-4">Daniel Lidman Reel</strong>
       </>
     ),
-    href: '/work/building-once-ui-a-customizable-design-system',
+    href: '/',
   },
   subline: (
     <>
