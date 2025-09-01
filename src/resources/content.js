@@ -91,15 +91,16 @@ const about = {
   },
   intro: {
     display: true,
-    title: 'Introduction',
+    title: 'About',
     description: (
       <>
-        I’m a video editor and animator based in Nashville, TN. I have spent the
-        last 9 years working with large scale non-profits, humanitarian
-        campaigns to tell the stories of lives changed and social good in the
-        world. Whether I'm crafting a documentary, multicam cutting a concert,
-        or animating responsive graphics for a promo, I love creatively bringing
-        people's stories and visions to life.
+        I’m a video editor and animator based in Nashville, TN. I've spent the
+        last decade years working with large scale non-profits, humanitarian
+        campaigns, and personal finance educators to tell the stories of lives
+        changed and social good in the world. Whether I'm crafting a
+        documentary, multicam cutting a concert, or animating responsive
+        graphics for a promo, I love creatively bringing people's stories and
+        visions to life.
         <br></br>
         <br></br>
         Thanks for visiting my site. Looking forward to hearing from you!
